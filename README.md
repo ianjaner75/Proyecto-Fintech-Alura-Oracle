@@ -1,195 +1,65 @@
-# ⚡Krypton 
-## Predicción de Cancelación de Tarjetas de Crédito
-Este proyecto tiene como objetivo desarrollar una solución orientada a la **predicción de cancelación de tarjetas de crédito** en clientes de empresas del sector **Fintech**.
+# ⚡ Krypton: Predicción de Churn en Fintech
+## 💳 Solución Integral de Predicción de Cancelación de Tarjetas
 
-La cancelación de clientes (*churn*) representa uno de los principales desafíos en los modelos de negocio basados en servicios financieros. Anticipar este comportamiento permite a las empresas implementar estrategias de retención más efectivas, optimizar recursos y mejorar la experiencia del usuario.
+Este proyecto desarrolla una solución avanzada orientada a la **predicción de cancelación de tarjetas de crédito** para empresas del sector **Fintech**. El objetivo es anticipar el comportamiento de abandono (*churn*) para implementar estrategias de retención efectivas y optimizar la toma de decisiones basada en datos.
 
-La API desarrollada combina técnicas de Data Science y Marchine Learning, permitiendo integrar el modelo predictivo de una manera simple en los sistemas existentes. De esta manera, la **API** posibilita aplicar analítica predictiva para respaldar decisiones basadas en datos y optimizar las entrategias del negocio. 
+> **Rol Destacado:** Líder de equipo Back-end & desarrollador Principalen de la parte del Front-end.
+
+---
 
 ## 🎯 Objetivo
 
-- Identificar clientes con alta probabilidad de cancelar su tarjeta.
-- Permitir acciones preventivas de retención.
-- Respaldar la toma de decisiones comerciales.
-- Exponer la predicción mediante una API.
+- **Identificar** clientes con alta probabilidad de cancelar su tarjeta mediante Machine Learning.
+- **Permitir** acciones preventivas de retención en tiempo real.
+- **Exponer** las predicciones a través de una API robusta y escalable.
+- **Respaldar** la toma de decisiones comerciales con analítica predictiva.
 
 ## 🧩 Arquitectura
-Nuestra **API esta diseñada para permitir la integración simple y escalable, orientada a la toma de decisiones basadas en datos, facilitando la incorporación del modelo predictivo en distintos sistemas y contextos de negocios.
+Nuestra API está diseñada para una integración simple y escalable. Utiliza un ecosistema híbrido donde un motor de **Python** procesa la inteligencia predictiva y un núcleo de **Java** gestiona la lógica de negocio y seguridad.
 
-## ⚙️ Setup
+## ⚙️ Setup del Proyecto
 
-### Requisitos: 
+### Requisitos Técnicos
+| Componente | Tecnología |
+| :--- | :--- |
+| **Runtime Backend** | Java 21 (LTS) / Spring Boot 3.2 |
+| **Runtime ML** | Python 3.11.x |
+| **Contenedores** | Docker Engine 24.0+ |
+| **Orquestación** | Docker Compose V2 |
 
-*Stack de Ejecución**
-
-- **Runtime Backend:** Java 21 (LTS) / Spring Boot 3.2.
-- **Runtime ML:** Python 3.11.x (CPython).
-- **Contenedores:** Docker Engine 24.0+ / Alpine Linux Base Images.
-- **Orquestación:** Docker Compose V2 o Kubernetes Helm Charts.
-
- **Recursos de Hardware (Mínimos)**
-
+### Recursos de Hardware (Mínimos)
 - **CPU:** 4 vCPUs (x86_64).
 - **RAM:** 8 GB Total (Heap Java: 2GB | RAM ML Engine: 4GB).
-- **Storage:** 20 GB SSD (IOPS optimizados para logs de inferencia).
-  
-### Instalación: 
+- **Storage:** 20 GB SSD.
 
-
-## 🔗 Enlaces a recursos
-- 📁 Repositorio del proyecto:https://github.com/proyectofintech-hackathon/ONE-II-LATAM--Predicci-n-de-Cancelaci-n-de-Clientes 
-- 📓 Notebook de Data Science:https://www.notion.so/Proyecto-Krypton-2e8d24359eb3804caf3ac78204e8bfc5 
-- 🧪 Pruebas de la API:http://35.208.157.23:8080/login.html
-
-👥 Organización del Equipo
 ---
-Para asegurar una correcta planificación, desarrollo e integración de la solución, el proyecto se organizó en equipos de trabajo con líderes asignados para cada área.
 
-### 🔹 Lider del proyecto :
-  Responsable de la coordinación general, organización del trabajo y comunicación entre los equipos.
+## 🛠️ Tecnologías Utilizadas
 
-- ***Sergio Narciso López***
-
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin)](https://www.linkedin.com/in/sergionarcisoftware/)
-  [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/Narciso43)
-
-### 👤​ Líder del equipo de Data Science 
-
-- ***Sergio Narciso López***
-
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin)](https://www.linkedin.com/in/sergionarcisoftware/)
-  [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/Narciso43)
-
-### 👤 Líder del equipo Back-end
-
-- ***Ianjaner alfonso beltran guañarita***
-
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin)](https://www.linkedin.com/in/ianjaner-alfonso-beltran-guañarita)
-  [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/ianjaner75)
-
-## 📊 Data Science
-
-**Data Science & Google Cloud Platform ☁️**
-- ***Gonzalo Costela*** 
-  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin)](https://www.linkedin.com/in/gonzalocostela)
-  [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/Haruki-24)
-
-  **👥​ Equipo de Data Science**
-
-- ***Linda Rocio Olmedo Reyes***
-  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin)](https://www.linkedin.com/in/linda-roc%C3%ADo-web051275/)
-  [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)]()
-
-- ***Nidia Lizeth Sánchez Chavarría***
-  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin)](https://www.linkedin.com/in/nidia-lizeth-sanchez-47462737b/)
-  [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/AcidTwinsn)
-
-- ***Jessica Robles***
-  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin)](https://www.linkedin.com/in/robles-jessica-carolina/)
-  [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/NyxJr)
-
-## 👨‍💻​ Back-end
-
-**👥​ Equipo de Back-end**
-
-- ***Ianjaner alfonso beltran guañarita***
-  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin)](https://www.linkedin.com/in/ianjaner-alfonso-beltran-guañarita)
-  [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/ianjaner75)
-
- ## 🎨 Front-end
-
-  **👥​ Equipo de Front-end**
-
-- ***Linda Roció Olmedo Reyes***
-  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin)](https://www.linkedin.com/in/linda-roc%C3%ADo-web051275/)
-  [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)]()
-
-- ***Ianjaner alfonso beltran guañarita***
-  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin)](www.linkedin.com/in/ianjaner-alfonso-beltran-guañarita)
-  [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/ianjaner75)
-
-
-## 🛠️ Tecnologías utilizadas 
-
-## 🐍 **Data Science & Analytics**
-
+### 🐍 Data Science & Analytics
 | Tecnología | Uso Principal | Nivel |
-|------------|--------------|-------|
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | Lenguaje principal para análisis y ML | Avanzado |
-| ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) | Manipulación y análisis de datos | Avanzado |
-| ![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252) | Desarrollo rápido y colaborativo | Intermedio |
+| :--- | :--- | :--- |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | Lenguaje principal de ML | Avanzado |
+| ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) | Manipulación de datos | Avanzado |
+| ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) | Modelos predictivos | Avanzado |
 
-## ☕ **Back End Development**
+### ☕ Back End Development
 | Tecnología | Uso Principal | Versión |
-|------------|--------------|---------|
+| :--- | :--- | :--- |
 | ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) | Lenguaje backend principal | 21 LTS |
-| ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) | Framework principal | 3.x |
-| ![Spring Web](https://img.shields.io/badge/Spring_Web-6DB33F?style=for-the-badge&logo=spring&logoColor=white) | Desarrollo de APIs REST | 3.x |
-| ![Spring JPA](https://img.shields.io/badge/Spring_JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white) | Persistencia de datos | 3.x |
+| ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) | Framework Core | 3.2.x |
 | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) | Base de datos relacional | 15+ |
-| ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) | Gestión de dependencias | 3.8+ |
+| ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white) | Seguridad y JWT | 3.x |
 
-## 🔧 **Herramientas de Desarrollo**
-| Categoría | Tecnologías | Propósito |
-|-----------|-------------|-----------|
-| **Control de Versiones** | ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) | Colaboración y versionado |
-| **Gestión de Proyectos** | ![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white) ![No Country](https://img.shields.io/badge/No_Country-000000?style=for-the-badge) | Metodología Scrum |
-| **Documentación** | ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white) | Documentación técnica |
+---
 
-## 📊 **Stack Completo por Equipo**
+## 👨‍💻 Autor y Roles
 
-### **Equipo Data Science**
+### **Ianjaner Alfonso Beltrán Guañarita**
+**Líder de equipo Back-end | Front-end Developer**
 
-Lenguaje_principal: Python
-
-Entorno_desarrollo:
-
-  - Google Colab (prototipado)
-
-Librerias_principales:
-  - Pandas (análisis)
-  - NumPy (cálculo)
-  - Scikit-learn (ML)
-  - Matplotlib/Seaborn (visualización)
-  - Flask
-  - Flask-cors
-  - Joblib
-  - xgboost
-  - Catboost
-    
-Herramientas:
-  - Git/GitHub
-  - DVC (Data Version Control) Nota: Por Definir
-
-### **Equipo Backend**
-
-Lenguaje_principal: Java 21
-
-Framework: Spring Boot 3
-
-Modulos_spring:
-  - Spring Web (REST APIs)
-  - Spring Boot JPA (ORM)
-  - Spring Security
-
-Base_datos: PostgreSQL
-
-Build_tool: Maven
-
-Herramientas:
-  - Postman (API testing)
-  - Docker (contenedores)
-
-### **Equipo Frontend**
-  - Tecnologias (HTML, CSS, Bootstrap)
-  - Herramientas (Canva, Filmora)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin)](https://www.linkedin.com/in/ianjaner-alfonso-beltran-gua%C3%B1arita) 
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/ianjaner75)
 
 # Diagrama de Arquitectura del Proyecto
 

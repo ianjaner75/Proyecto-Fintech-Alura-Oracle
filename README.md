@@ -64,6 +64,8 @@ Nuestra API está diseñada para una integración simple y escalable. Utiliza un
 ---
 
 ## 📊 Diagramas de Arquitectura
+
+```mermaid
 graph TD
     DS["Data Science"] -- Conectado a --> BE["Back End"]
     

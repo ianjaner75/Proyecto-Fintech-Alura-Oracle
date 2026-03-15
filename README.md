@@ -61,20 +61,23 @@ Nuestra API está diseñada para una integración simple y escalable. Utiliza un
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin)](https://www.linkedin.com/in/ianjaner-alfonso-beltran-gua%C3%B1arita) 
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/ianjaner75)
 
-📊 Diagramas de Arquitectura
+# Diagrama de Arquitectura del Proyecto
 
+```mermaid
 graph TD
     DS["Data Science"] -- Conectado a --> BE["Back End"]
+    
     DS -->|Entrena| ML["Modelos ML"]
     BE -->|Expone| API["APIs REST"]
+    
     ML -->|Proporciona| DA["Data API"]
     API -->|Sirve| C["Consumo"]
+    
     DA -->|Alimenta| PF["Producto Final"]
     C -->|Utiliza| PF
-
-
-👨‍💻 Ecosistema Tecnológico
-
+ ```
+# Ecosistema Tecnológico
+```mermaid
 graph TB
     A[Data Sources] --> B[Python/Pandas]
     B --> C[ML Models]
@@ -85,8 +88,13 @@ graph TB
     G[Trello] --> H[Scrum Process]
     H --> B
     H --> D
+```
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
     I[Google Colab] --> B
     J[Maven] --> D
-
-    DA -->|Alimenta| PF["Producto Final"]
-    C -->|Utiliza| PF
+ ```

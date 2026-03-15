@@ -3,7 +3,7 @@
 
 Este proyecto desarrolla una solución avanzada orientada a la **predicción de cancelación de tarjetas de crédito** para empresas del sector **Fintech**. El objetivo es anticipar el comportamiento de abandono (*churn*) para implementar estrategias de retención efectivas y optimizar la toma de decisiones basada en datos.
 
-> **Rol Destacado:** Líder de equipo Back-end & Co-desarrollador Front-end.
+> **Rol Destacado:** Líder de equipo Back-end & desarrollador Principalen de la parte del Front-end.
 
 ---
 

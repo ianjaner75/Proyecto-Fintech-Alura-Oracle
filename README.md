@@ -61,19 +61,14 @@ Nuestra API está diseñada para una integración simple y escalable. Utiliza un
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin)](https://www.linkedin.com/in/ianjaner-alfonso-beltran-gua%C3%B1arita) 
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/ianjaner75)
 
----
-
 📊 Diagramas de Arquitectura
 
 graph TD
     DS["Data Science"] -- Conectado a --> BE["Back End"]
-    
     DS -->|Entrena| ML["Modelos ML"]
     BE -->|Expone| API["APIs REST"]
-    
     ML -->|Proporciona| DA["Data API"]
     API -->|Sirve| C["Consumo"]
-    
     DA -->|Alimenta| PF["Producto Final"]
     C -->|Utiliza| PF
 
@@ -93,6 +88,5 @@ graph TB
     I[Google Colab] --> B
     J[Maven] --> D
 
-    API -->|Sirve| C["Consumo"]
     DA -->|Alimenta| PF["Producto Final"]
     C -->|Utiliza| PF

@@ -63,9 +63,8 @@ Nuestra API está diseñada para una integración simple y escalable. Utiliza un
 
 ---
 
-## 📊 Diagramas de Arquitectura
+📊 Diagramas de Arquitectura
 
-```mermaid
 graph TD
     DS["Data Science"] -- Conectado a --> BE["Back End"]
     
@@ -77,7 +76,10 @@ graph TD
     
     DA -->|Alimenta| PF["Producto Final"]
     C -->|Utiliza| PF
-## 👨‍💻 Ecosistema Tecnológico
+
+
+👨‍💻 Ecosistema Tecnológico
+
 graph TB
     A[Data Sources] --> B[Python/Pandas]
     B --> C[ML Models]
@@ -91,7 +93,6 @@ graph TB
     I[Google Colab] --> B
     J[Maven] --> D
 
-Python Pandas Java Spring PostgreSQL Git
     API -->|Sirve| C["Consumo"]
     DA -->|Alimenta| PF["Producto Final"]
     C -->|Utiliza| PF
